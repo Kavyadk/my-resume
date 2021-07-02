@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheets" href="style.css">
+    
+</head>
+<style>
+body
+{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.container
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: cornsilk;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_Side
+{
+    position: relative;
+    background-color: rgb(138, 43, 226);
+    padding: 40px;   
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo
+{
+    padding-top: 40px;
+    font-size: large;
+}
+.cont
+{
+    font-size:16px;
+    font-weight: 100;
+}
+.title
+{
+    color:#fff ;
+    text-transform: uppercase;
+    font-weight:600 ;
+    
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul 
+{
+    position: relative;
+
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(183, 195, 12);
+}
+
+.contactInfo ul li span
+{
+    color: #fff;
+    font-weight:300 ;
+}
+.language
+{
+    color: #fff;
+    font-weight:300 ; 
+    font-size: large; 
+}
+.lan
+{
+font-size: large;
+}
+
+
+.container .right_Side
+{
+    position: relative;
+   
+    background: rgb(231, 229, 225);
+    padding: 40px;
+}
+.education
+{
+    position: relative;
+   
+}
+.title1
+{
+    color: rgb(247, 52, 18);
+}
+.edubtn1
+{
+   
+  
+    position: relative;
+    left: 450px;
+    bottom: 90px;
+     border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    text-align:center;
+    background-color: rgb(59, 16, 202);
+    width:100px ;
+    height: 25px;
+
+}
+.edubtn2
+{
+   
+    position: relative;
+    left: 450px;
+    bottom: 90px;
+     border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    text-align:center;
+    background-color: rgb(59, 16, 202);
+    width:100px ;
+    height: 25px;
+    
+
+}
+.edubtn3
+{
+    
+    position: relative;
+    left: 450px;
+   bottom: 90px;
+     border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    text-align:center;
+    background-color: rgb(59, 16, 202);
+    width:100px ;
+    height: 25px;
+    
+
+}
+button
+{
+    border-radius: 4px;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    text-align:center;
+    background-color: rgb(16, 253, 68);
+    width:100px ;
+    height: 25px;
+}
+.hobby
+{
+    font-weight: bold; 
+    font-size: large;
+}
+    
+</style>
+<body>
+     <div class="container">
+         <div class="left_Side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="img.png">
+                </div>
+                <h2>Kavya</h2>
+            </div>
+            
+            <div class="contactInfo">
+                <h3 class="title">Contact Info</h3>
+                <ul class="cont">
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">8197011502</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <span class="text">kavyadk2001@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                        <span class="text">www.kavya.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Mangalore,Karnataka,India</span>
+                    </li>
+                </ul>
+            </div>
+            <br><br>
+            <hr>
+            <br>
+            <div class="language">
+                <h3 class="title">LANGUAGES</h3>
+                <ul class="lan">
+                    <li>English</li>
+                    <li>Kannada</li>
+                    <li>Hindi</li>
+                    <li>Tulu</li>
+                </ul>
+
+            </div>
+            
+
+
+
+         </div>
+         <div class="right_Side">
+            <div class=" education">
+                <h2 class="title1">EDUCATION DETAILS</h2>
+                <ul>
+                    <li>
+                       
+                        <h3>Bacholar of engineering in computer science </h3>
+                        <h4>Vishveshwaraya Technological University</h4>
+                        <h5>2018-2022</h5>
+                        <button class="edubtn1">CGPA:8.5</button>
+                    </li>
+                    <li>
+                        
+                        <h3>Pre-University </h3>
+                        <h4>Govt. Pre University college,Kavoor,Mangalore</h4>
+                 
+                      <h5>2016-2018</h5>
+                      <button class="edubtn2">88%</button>  
+                    </li> 
+                    <li>
+                        <h3>SSLC</h3>
+                        <h4>Govt. High School, Kavoor,Mangalore</h4>
+                        
+                        <h5>2015-2016</h5>
+                        <button class="edubtn3">92%</button>
+                    </li>
+                    
+                </ul>
+            </div>
+           <hr> 
+           <div class="skills">
+                <h2 class="title1">TECHNICAL SKILLS</h2>
+               
+                <button>C++</button>
+                <button>JAVA</button>
+                <button>PYTHON</button>
+                <button>HTML</button>
+            </div>
+           <hr>
+            
+           <div class="projects">
+               <h2 class="title1">PROJECTS</h2>
+               <ul>
+                   <li><h3>Hotel Management System</h3></li>
+                   <p>Using HTML,CSS and PHP</p>
+                   <li><h3>Farm Management System</h3></li>
+                   <p>Using HTML,CSS and PHP</p>
+               </ul>
+           </div>
+           <hr>
+
+           <div class="hobbies">
+               <h2 class="title1">HOBBIES</h2>
+               <ul class="hobby">
+                   <li>Dancing</li>
+                   <li>Singing</li>
+                   <li>Painting</li>
+                   
+                   
+               </ul>
+
+           </div>
+
+
+         </div>
+                
+     </div>
+</body>
+</html>
